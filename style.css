@@ -259,10 +259,14 @@ nav ul li:first-child{
     width: 40vw;
     margin: 0 auto;
 }
+.sec-4-title h1{
+    margin: 1.5rem 0rem;
+    font-size: 3.5rem;
+    font-weight: 900;
+}
 .sec-4{
-    width: 80vw;
     margin: 10vh auto;
-    background-color: #95959526;
+    background-color: rgb(34, 34, 34);;
     display: grid;
     align-items: center;
     grid-template-columns: repeat(2,1fr);
@@ -273,21 +277,24 @@ nav ul li:first-child{
     gap: 0.5rem;
 }
 .input input{
-    background: #7673734d;
+    background:rgba(255, 255, 255, 0.1);
     font-size: 1.2rem;
     height: 4vh;
     border: none;
     border-radius: 0.6rem;
     padding-left: 1rem;
 }
+input::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+}
 .input select{
-    background: #7673734d;
+    background: rgba(255, 255, 255, 0.1);
     font-size: 1.2rem;
     height: 4vh;
     border: none;
     border-radius: 0.6rem;
     padding-left: 1rem;
-    color: gray;
+    color: rgba(255, 255, 255, 0.6);
 }
 .sec-5-title{
     display: flex;
