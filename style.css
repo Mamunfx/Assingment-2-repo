@@ -27,7 +27,7 @@
     color: white;
     border-radius: 2rem;
     border: none;
-    width: 12vw;
+    width: 13vw;
     height: 6vh;
     font-size: 1.3rem;
 }
@@ -35,7 +35,7 @@
     border: 1px solid white;
     border-radius: 2rem;
     height: 6vh;
-    width: 12vw;
+    width: 13vw;
     background-color: black;
     color: white;
     font-size: 1.3rem;
@@ -45,20 +45,23 @@ p{
 }
 table{
     text-align: left;
-    border: 1px solid #9e9e9e8f;
     border-collapse: collapse;
-    width: 18vw;
-    height: 21vh;
+    width: 20vw;
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 td{
-    border: 1px solid #9e9e9e8f;
+    border:1px solid rgba(255, 255, 255, 0.1);
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 1rem;
 }
 th{
-    text-align: center;
-    font-size: 1.1rem;
-    border: 1px solid #9e9e9e8f;
+    text-align: left;
+    font-weight: 400;
+    font-size: 1.3rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1rem;
 }
 body{
     background-color: black;
@@ -231,11 +234,12 @@ nav ul li:first-child{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    width: 70vw;
+    width: 80vw;
     margin: 13vh auto;
     background-color: #95959526;
     border-radius: 1rem;
     padding: 2.5rem;
+    gap: 2rem;
 }
 .sec3-left{
     display: flex;
@@ -278,18 +282,42 @@ nav ul li:first-child{
     width: 70vw;
     margin: 0 auto;
 }
+.sec4-left h1{
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 5vh 0;
+}
+.sec4-right h1{
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 2.5rem 0 1rem 0;
+}
+.sec4-right {
+    margin-bottom: 4rem;
+}
+.sec4-right p{
+    width: 97%;
+    margin: 1.5rem 0 1.8rem 0;
+}
 .input{
     display: grid;
     grid-template-columns:1fr 1fr;
-    gap: 0.5rem;
+    gap: 1rem;
+    width: 97%;
+    margin: 2.3rem 0;
 }
 .input input{
     background:rgba(255, 255, 255, 0.1);
     font-size: 1.2rem;
-    height: 4vh;
+    height: 5vh;
     border: none;
     border-radius: 0.6rem;
     padding-left: 1rem;
+    
+}
+#Activity{
+    grid-column: 1 / -1;
+    height: 6vh;
 }
 input::placeholder{
     color: rgba(255, 255, 255, 0.6);
@@ -297,7 +325,7 @@ input::placeholder{
 .input select{
     background: rgba(255, 255, 255, 0.1);
     font-size: 1.2rem;
-    height: 4vh;
+    height: 5vh;
     border: none;
     border-radius: 0.6rem;
     padding-left: 1rem;
@@ -308,6 +336,16 @@ input::placeholder{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.sec-5-title h1{
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+.sec-5-title p{
+    text-align: center;
+    width: 38vw;
+    line-height: 1.5rem;
+    margin: 1rem 0;
 }
 .sec-5{
     display: grid;
@@ -322,74 +360,98 @@ input::placeholder{
 .trainer-1{
     background-image: url(./images/trainer1.png);
     background-size: cover;
+    background-position: center;
+    height: 29vh;
+    width: auto;
     background-repeat: no-repeat;
-    height: 35vh;
-    width: 87%;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: end;
+    padding: 2rem;
+    font-size: 1.2rem;
+    margin: 0.5rem;
 }
 .trainer-2{
     background-image: url(./images/trainer2.png);
     background-size: cover;
+    background-position: center;
+    height: 29vh;
+    width: auto;
     background-repeat: no-repeat;
-    height: 35vh;
-    width: 87%;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: end;
+    padding: 2rem;
+    font-size: 1.2rem;
+    margin: 0.5rem;
 }
 .trainer-3{
     background-image: url(./images/trainer3.png);
     background-size: cover;
+    background-position: center;
+    height: 29vh;
+    width: auto;
     background-repeat: no-repeat;
-    height: 35vh;
-    width: 87%;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: end;
+    padding: 2rem;
+    font-size: 1.2rem;
+    margin: 0.5rem;
 }
 .trainer-4{
     background-image: url(./images/trainer4.png);
     background-size: cover;
+    background-position: center;
+    height: 29vh;
+    width: auto;
     background-repeat: no-repeat;
-    height: 35vh;
-    width: 87%;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: end;
+    padding: 2rem;
+    font-size: 1.2rem;
+    margin: 0.5rem;
 }
 .trainer-5{
     background-image: url(./images/trainer5.png);
     background-size: cover;
+    background-position: center;
+    height: 29vh;
+    width: auto;
     background-repeat: no-repeat;
-    height: 35vh;
-    width: 87%;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: end;
+    padding: 2rem;
+    font-size: 1.2rem;
+    margin: 0.5rem;
 }
 .trainer-6{
     background-image: url(./images/trainer6.png);
     background-size: cover;
+    background-position: center;
+    height: 29vh;
+    width: auto;
     background-repeat: no-repeat;
-    height: 35vh;
-    width: 87%;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: end;
+    padding: 2rem;
+    font-size: 1.2rem;
+    margin: 0.5rem;
 }
 
 footer{
@@ -401,21 +463,45 @@ footer{
 }
 .foot{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: 2fr 1fr 1fr;
     width: 80vw;
-    margin: 0 auto;
+    margin: 2rem auto;
 }
 
 .bottom{
     width: 80vw;
     text-align: center;
 }
+.bottom hr{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.bottom p{
+    font-size: 1.5rem;
+    margin: 2.2rem 0;
+}
 .left-foot h1{
-    color:#eb391a;
-    font-size: 3rem;
+    color:rgb(230, 83, 60);
+    font-size: 5rem;
+    margin: 2rem 0;
+}
+.left-foot p{
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    width: 70%;
+}
+.middle-foot h1{
+    font-size: 2.3rem;
+    margin: 3rem 0;
+}
+.right-foot h1{
+    font-size: 2.3rem;
+    margin: 3rem 0;
 }
 footer ul li {
     list-style: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.7rem;
+    margin: 1.3rem 0;
 }
 
 @media screen and (max-width: 720px) {
@@ -453,7 +539,9 @@ footer ul li {
         gap: 3rem;
     }
     .sec2-title p{
-        width: 100%;
+        margin: 1.5rem auto;
+        line-height: 1.5rem;
+        width: 58vw;
     }
     .card p{
         font-size: 1.5rem;
@@ -465,13 +553,28 @@ footer ul li {
     .sec-3 img{
         width: 100%;
     }
-    .sec-4{
+    .sec-4-title{
+        width: 66%;
+        margin: 2rem;
+    }
+    .sec4-in{
         grid-template-columns: repeat(1,1fr);
+        width: 90%;
+    }
+    .sec4-left table{
+        width: 90%;
+    }
+    .sec-5-title p{
+        font-size: 1.2rem;
+        width: 70%;
     }
     .sec-5{
         grid-template-columns: repeat(1,1fr);
     }
     .foot{
         grid-template-columns: repeat(1,1fr);
+    }
+    .bottom p{
+        text-align: left;
     }
 }
