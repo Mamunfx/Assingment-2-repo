@@ -453,7 +453,6 @@ input::placeholder{
     font-size: 1.2rem;
     margin: 0.5rem;
 }
-
 footer{
     display: flex;
     flex-direction: column;
@@ -467,7 +466,6 @@ footer{
     width: 80vw;
     margin: 2rem auto;
 }
-
 .bottom{
     width: 80vw;
     text-align: center;
