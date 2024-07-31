@@ -264,12 +264,19 @@ nav ul li:first-child{
     font-size: 3.5rem;
     font-weight: 900;
 }
+.sec-4-title p{
+    line-height: 1.5rem;
+    width: 95%;
+}
 .sec-4{
     margin: 10vh auto;
     background-color: rgb(34, 34, 34);;
+}
+.sec4-in{
     display: grid;
-    align-items: center;
     grid-template-columns: repeat(2,1fr);
+    width: 70vw;
+    margin: 0 auto;
 }
 .input{
     display: grid;
