@@ -10,14 +10,13 @@
   font-variation-settings:
     "slnt" 0;
 }
-
 .dancing-font {
-  font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-weight:400 ;
-  font-style: normal;
-  font-size: 2rem;
-}
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight:400 ;
+    font-style: italic;
+    font-size: 6rem;
+  }
 *{
     margin: 0;
     padding: 0;
@@ -28,21 +27,21 @@
     color: white;
     border-radius: 2rem;
     border: none;
-    width: 11vw;
-    height: 5vh;
-    font-size: 1.2rem;
+    width: 12vw;
+    height: 6vh;
+    font-size: 1.3rem;
 }
 .btn-2nd {
     border: 1px solid white;
     border-radius: 2rem;
-    height: 5vh;
-    width: 11vw;
+    height: 6vh;
+    width: 12vw;
     background-color: black;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
-.spn{
-    font-style:miama ;
+p{
+    color: rgba(255, 255, 255, 0.5);
 }
 table{
     text-align: left;
@@ -68,7 +67,7 @@ body{
 .head{
     display: flex;
     width: 80vw;
-    margin: 5vh auto 7vh auto;
+    margin: 5vh auto 10vh auto;
     justify-content: space-between;
 }
 .head h1{
@@ -114,54 +113,72 @@ nav ul li:first-child{
     color: white;
     
 }
-.hero-1st h1{
-    font-size: 5rem;
+.hero-1st h1 {
+    font-size: 5.5rem;
+    font-weight: 900;
+    width: 94%;
 }
-.hero-1st p{
+.hero-1st p {
+    width: 75%;
     margin: 2rem 0rem;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.5);
 }
 .hero-2nd{
     color: white;
     background-image: url(./images/Images\ 2.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: contain;
     height: 73vh;
     
 }
 .short-1{
-    background-color: #817d7d63;
+    background-color: rgba(48, 48, 48, 0.54);
     width: 10rem;
-    height: 5rem;
+    height: 3rem;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     position: relative;
     top: 15vh;
     left: 21vw;
-    
+    padding: 2rem;
+}
+.short-1 h1{
+    font-size: 2.8rem;
+    font-weight: 900;
+}
+.short-1 p{
+    color: rgba(255, 255, 255, 0.65);
+
 }
 .short-2{
-    background-color: #817d7d63;
-    width: 10rem;
-    height: 5rem;
+    background-color: rgba(48, 48, 48, 0.54);
+    width: 14rem;
+    height: 6rem;
     border-radius: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     left: 5vw;
-    top: 45vh;
+    top: 40vh;
     gap: 1rem;
 }
 .dot button{
-    width: 2rem;
-    border-radius: 2rem;
-    height: 2rem;
+    width: 3rem;
+    border-radius: 3rem;
+    height: 3rem;
     background-color:rgb(230, 83, 60) ;
     border: none;
+}
+.cont{
+    font-size: 1.2rem;
+}
+.cont p {
+    color: rgba(239, 237, 232, 0.65);
 }
 .sec-2{
     display: flex;
@@ -172,6 +189,17 @@ nav ul li:first-child{
 }
 .sec2-title{
     color: white;
+    margin: 3rem 0rem;
+}
+.sec2-title h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.sec2-title p{
+    font-size: 1.1rem;
+    width: 40vw;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 1.2rem 0rem;
 }
 .sec2-cards{
     display: grid;
@@ -185,28 +213,46 @@ nav ul li:first-child{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
+}
+.card h2{
+    color: rgb(255, 255, 255);
+}
+.card p{
+    width: 78%;
 }
 .card img{
-    border-radius: 10rem;
-    width: 63%;
-    border: 3px solid rgb(15, 15, 15);
+        border-radius: 10rem;
+        width: 60%;
+        border: 8px solid rgb(15, 15, 15);
 }
 .sec-3 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width: 80vw;
-    margin: 10vh auto;
+    width: 70vw;
+    margin: 13vh auto;
     background-color: #95959526;
     border-radius: 1rem;
-    padding: 1rem 0rem;
+    padding: 2.5rem;
 }
 .sec3-left{
-    width: 36vw;
+    display: flex;
+    gap: 2rem;
+    width: 25vw;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+.sec3-left h1{
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+.sec3-left p{
+    line-height: 1.5rem;
 }
 .sec-3 img{
-    width: 30vw;
+    width: 32vw;
     border-radius: 1rem;
 }
 .sec-4-title{
@@ -358,7 +404,15 @@ footer ul li {
     list-style: none;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 720px) {
+    .btn{
+        width: 32vw;
+        height: 5vh;
+    }
+    .btn-2nd{
+        width: 32vw;
+        height: 5vh;
+    }
     nav{
         display: none;
     }
@@ -366,23 +420,36 @@ footer ul li {
         grid-template-columns: 1fr;
         gap: 1rem;
     }
+    .hero-1st h1{
+        font-size: 4rem;
+    }
+    .dancing-font{
+        font-size: 4rem;
+    }
     .short-1{
         position: relative;
         top: 4rem;
         left: 15rem;
-    }
-    .hero-2nd{
-        width: 26rem;
-
     }
     .sec-2{
         margin-top: 5vh;
     }
     .sec2-cards{
         grid-template-columns: repeat(1,1fr);
+        gap: 3rem;
+    }
+    .sec2-title p{
+        width: 100%;
+    }
+    .card p{
+        font-size: 1.5rem;
+        width: 60%;
+    }
+    .sec3-left{
+        width: 100%;
     }
     .sec-3 img{
-        width: 75vw;
+        width: 100%;
     }
     .sec-4{
         grid-template-columns: repeat(1,1fr);
