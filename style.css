@@ -196,7 +196,7 @@ nav ul li:first-child{
     margin: 3rem 0rem;
 }
 .sec2-title h1{
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 900;
 }
 .sec2-title p{
@@ -503,12 +503,18 @@ footer ul li {
     margin: 1.3rem 0;
 }
 
+.uniq-title{
+    text-align: center;
+}
+.uniq-title h1{
+    font-size: 4.5rem;
+}
 .uniq{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     width: 90vw;
-    margin: 0 auto;
+    margin: 6rem auto 12rem auto;
 }
 .recipe{
     display: flex;
@@ -520,7 +526,11 @@ footer ul li {
 }
 .recipe img{
     border-radius: 1rem;
-    
+    height: 29vh;
+}
+.recipe h2{
+    font-size: 2.5rem;
+    margin: 1.8vh 0;
 }
 @media screen and (max-width: 720px) {
     .btn{
