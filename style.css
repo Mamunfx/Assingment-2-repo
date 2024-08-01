@@ -505,7 +505,10 @@ footer ul li {
 
 .uniq{
     display: grid;
-    
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    width: 90vw;
+    margin: 0 auto;
 }
 .recipe{
     display: flex;
