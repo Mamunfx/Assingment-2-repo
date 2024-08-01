@@ -503,6 +503,18 @@ footer ul li {
     margin: 1.3rem 0;
 }
 
+.uniq{
+    display: grid;
+    
+}
+.recipe{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    background-color: #373737c7;
+    border-radius: 1rem;
+    padding: 2rem;
+}
 @media screen and (max-width: 720px) {
     .btn{
         width: 11rem;
