@@ -514,9 +514,13 @@ footer ul li {
     display: flex;
     flex-direction: column;
     width: 30rem;
-    background-color: #373737c7;
+    background-color: #95959526;
     border-radius: 1rem;
     padding: 2rem;
+}
+.recipe img{
+    border-radius: 1rem;
+    
 }
 @media screen and (max-width: 720px) {
     .btn{
