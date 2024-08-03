@@ -510,30 +510,27 @@ footer ul li {
     font-size: 4.5rem;
 }
 .uniq{
+    width: 85vw;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-    width: 90vw;
-    margin: 6rem auto;
-    margin-bottom: 8rem;
+    gap: 2vw;
+    margin: 7vh auto;
 }
 .recipe{
-    width: 30rem;
-    display: flex;
-    flex-direction: column;
     background-color: #95959526;
-    border-radius: 1rem;
-    padding: 2rem;
+    width: 24vw;
+    padding: 1.5vw;
+    border-radius: 1vw;
 }
 .recipe img{
-    border-radius: 1rem;
-    height: 29vh;
+    width: 100%;
+    border-radius: 1vw;
 }
 .recipe h2{
-    font-size: 2.5rem;
-    margin: 1.8vh 0;
+    font-size: 2vw;
+    margin: 2vh auto;
 }
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 720px) {
     .btn{
         width: 11rem;
         height: 7vh;
@@ -695,15 +692,20 @@ footer ul li {
         margin: 2rem 5rem;
     }
     .uniq{
-        grid-template-columns: repeat(1, 1fr);
-        margin: 1rem 7vw 4rem 7vw;
-        width: 95vw;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        margin: 1vh 15vw;
     }
     .recipe{
-        width: 100%;
+        width: 90vw;
+        border-radius: 3vw;
+        padding: 3vw;
     }
     .recipe img{
-        height: 38vh;
-        margin-bottom: 1rem;
+        border-radius: 2vw;
+    }
+    .recipe h2{
+        font-size: 7vw;
+        margin: 3vh auto;
     }
 }
