@@ -78,6 +78,9 @@ body{
     font-size: 3rem;
     color: rgb(230, 83, 60);
 }
+#bar-icon{
+    display: none;
+}
 nav{
     
     display: flex;
@@ -177,6 +180,9 @@ nav ul li:first-child{
     height: 3rem;
     background-color:rgb(230, 83, 60) ;
     border: none;
+}
+#play-button{
+    font-size: 2rem;
 }
 .cont{
     font-size: 1.2rem;
@@ -541,6 +547,12 @@ footer ul li {
     }
     nav{
         display: none;
+    }
+    #bar-icon{
+        display:block;
+        font-size: 2rem;
+        margin: 0.8rem -4rem;
+
     }
     .hero{
         grid-template-columns: 1fr;
