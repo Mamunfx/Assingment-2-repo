@@ -718,6 +718,7 @@ footer ul li {
     }
     .recipe h2{
         font-size: 7vw;
+        margin: 0 auto;
         margin: 3vh auto;
     }
 }
