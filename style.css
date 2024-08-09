@@ -265,6 +265,8 @@ nav ul li:first-child{
 .sec-3 img{
     width: 32vw;
     border-radius: 1rem;
+    Object-fit:none;
+    Object-position: 66% 33%
 }
 .sec-4-title{
     width: 40vw;
